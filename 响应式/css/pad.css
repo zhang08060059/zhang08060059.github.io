@@ -1,0 +1,87 @@
+.logo{
+	float: none;
+}
+.inner_c{
+	width: 100%;
+	margin: 0 auto;
+}
+.header .nav{
+	width: 100%;
+	margin-left: 0;
+}
+.header .nav ul li{
+	width: 12%;
+	box-sizing:border-box;
+}
+.header .nav ul li a{
+	color:#333;
+	text-align: center;
+	font-size: 14px;
+}
+.banner .left,.banner .right{
+	top: 30%;
+}
+.banner .circles{
+	position: absolute;
+	top: 55%;
+}
+.product ul li{
+	width: 50% !important;
+	margin-right: 0;
+	text-align: center;
+}
+.product{
+	margin-top: -150px;
+	border: none;
+	height: 900px;
+}
+.chanpin{
+	height: 1000px;
+}
+.chanpin ul li .left{
+	width: 80%;
+	text-align: center;
+}
+.bottom .left{
+	width: 50%;
+	text-align: center;
+}
+.bottom .right{
+	width: 50%;
+}
+.footer .left{
+	width: 50%;
+	margin-top: -10px;
+}
+.footer .right{
+	width: 50%;
+	margin-top: -10px;
+	text-align: center;
+}
+.content .left{
+	width: 13%;
+}
+.chanpin{
+	margin-top: 0;
+}
+.chanpin ul li{
+	width: 50%;
+	margin-top: 0;
+}
+.chanpin ul li .right{
+	width: 50%;
+	margin-left: 55px;
+}
+.jingpin .title{
+	margin-top: 30px;
+}
+.jingpin .list{
+	text-align: center;
+	height: 1100px;
+}
+.jingpin .list  ul li{
+	width: 35%;
+}
+.jingpin .pages{
+	height: 130px;
+}
