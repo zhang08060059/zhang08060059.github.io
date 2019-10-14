@@ -1,0 +1,503 @@
+html{
+    font-size: 100px;
+}
+body {
+    background: #E8E8E8;
+    color: #252525;
+    font-size:16px ;
+}
+header{
+    max-width: 7.5rem;
+    margin: 0 auto;
+}
+header .index-nav {
+    display: -webkit-box;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    background: #fff;
+}
+header .index-nav .top-bar {
+    display: -webkit-box;
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    list-style: none;
+    border-bottom: 1px solid #cc5200;
+    background: #f60;
+}
+header .index-nav .top-bar .bdb-logo {
+    padding-left: 15px;
+    height: 40px;
+    /* float: left; */
+    float: none;
+    width: 80px;
+    background: url(http://m.bendibao.com/touch/v2/images/icons.png) no-repeat 0 -120px;
+    background-size: 80px 160px;
+}
+header .index-nav .top-bar .search {
+    background-color: #fff;
+    padding: 0 0 0 10px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    height: 28px;
+    margin: 6px;
+    line-height: 30px;
+    color: #b8b8b8;
+    text-align: left;
+    font-size: 13px;
+    transition: left .2s,right .2s;
+    border-radius: 25px;
+    display: block;
+}
+header .index-nav .top-bar .search a {
+    color: #b8b8b8;
+}
+header .index-nav .top-bar .search i {
+    background: url(http://m.bendibao.com/touch/v2/images/ssk.png) no-repeat;
+    width: 20px;
+    height: 15px;
+    display: -webkit-inline-box;
+    background-size: 95%;
+    margin-right: 2px;
+}
+header .index-nav .top-bar .city-label {
+    /* float: right; */
+    float: none;
+    padding-right: 15px;
+}
+header .index-nav .top-bar .city-label a {
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header .index-nav .top-bar .city-label a .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    vertical-align: middle;
+    border-top: 6px solid;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+.container #topnav{
+    display: block;
+    left: 0px;
+    top: 50px;
+    width: 100%;
+    z-index: 99;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.5s;
+    font-size: 12px;
+    font-family: "黑体", Arial, HELVETICA;
+    background-color: #fafafa;
+}
+.container #topnav>nav{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+    font-size: 16px;
+}
+.container #topnav>nav>ul.nav {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+#topnav>nav ul.nav li {
+    float: left;
+    width: 14.285%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    display: block;
+}
+#topnav>nav ul.nav .active a {
+    color: Red;
+}
+#topnav>nav ul.nav li a {
+    color: #333;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+#topnav>nav .menu-index {
+    float: left;
+    background: url(http://m.bendibao.com/touch/v2/images/pulldown.png)no-repeat center;
+    background-size: 20px;
+    transition: all 1s;
+}
+#topnav>nav .menu-index.san{
+    transform: rotate(540deg);
+}
+#topnav>.menu-box{
+    display: none;
+}
+#topnav>.menu-box ul {
+    width: 100%;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 0;
+}
+#topnav>.menu-box ul li {
+    float: left;
+    width: 14.285%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    display: block;
+}
+#topnav>.menu-box ul li a {
+    color: #333;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .lunbo{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container .lunbo .swiper{
+    width: 100%;
+    height: 100%;
+}
+.container .lunbo .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.container .lunbo .swiper-slide .bgcolor{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    display: block;
+    overflow: hidden;
+    background-color: #000;
+    z-index: 8;
+    opacity: 0.5;
+}
+.container .lunbo .swiper-slide .title{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+    width: 80%;
+    height: 30px;
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: left;
+    text-indent: 1em;
+    z-index: 9;
+    overflow: hidden;
+}
+.container .lunbo .swiper-pagination-bullets{
+    text-align: right;
+}
+.shotcut {
+    margin: 10px 0;
+    border-bottom: 1px solid #ffffff;
+    background: #fff;
+}
+.index-list-heading {
+    margin-bottom: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 8px;
+}
+.index-list-heading h2 {
+    margin: 5px 0;
+    border-left: 8px solid #f60;
+    padding: 0 10px;
+    float: left;
+    height: 40px;
+    font-weight: 800;
+    font-size: 22px;
+    color: #151515;
+    line-height: 40px;
+    overflow: hidden;
+}
+.index-list-heading h2 a {
+    color: #151515;
+}
+.index-list-heading .sub-chanel {
+    margin: 5px 0;
+    padding: 0 10px;
+    color: #999;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+}
+.index-list-heading .sub-chanel a {
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 2px;
+    color: #666;
+    text-decoration: none;
+}
+.shotcut {
+    margin: 10px 0;
+    border-bottom: 1px solid #ffffff;
+    background: #fff;
+}
+.shotcut .shotcut-wrap {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+.shotcut .shotcut-wrap ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.shotcut .shotcut-wrap ul li {
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+}
+.shotcut .shotcut-wrap ul li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+.shotcut .shotcut-wrap ul li a .ico {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-image: url(http://m.bendibao.com/touch/v2/images/icons.jpg);
+    background-size: 50px 400px;
+    background-repeat: no-repeat;
+
+}
+.shotcut .shotcut-wrap ul li a .ico-bus{
+    background-position: 0 0;
+}
+.shotcut .shotcut-wrap ul li a .ico-metro {
+    background-position: 0 -50px;
+}
+.shotcut .shotcut-wrap ul li a .ico-keche {
+    background-position: 0 -100px;
+}
+.shotcut .shotcut-wrap ul li a .ico-huoche {
+    background-position: 0 -300px;
+}
+.shotcut .shotcut-wrap ul li a .ico-geshui {
+    background-position: 0 -150px;
+}
+.shotcut .shotcut-wrap ul li a .ico-fanyi {
+    background-position: 0 -200px;
+}
+.shotcut .shotcut-wrap ul li a .ico-weizhang {
+    background-position: 0 -250px;
+}
+.shotcut .shotcut-wrap ul li a .ico-chebao {
+    background-position: 0 -350px;
+}
+.shotcut .shotcut-wrap ul li a span {
+    white-space: nowrap;
+    line-height: 18px;
+    font-size: 12px;
+    color: #666;
+}
+
+
+.index-list-heading {
+    margin-bottom: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 8px;
+}
+.index-list-heading h2 {
+    margin: 5px 0;
+    border-left: 8px solid #f60;
+    padding: 0 10px;
+    float: left;
+    height: 40px;
+    font-weight: 800;
+    font-size: 22px;
+    color: #151515;
+    line-height: 40px;
+    overflow: hidden;
+}
+.index-list-heading .sub-chanel {
+    margin: 5px 0;
+    padding: 0 10px;
+    color: #999;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+}
+.index-list-heading .sub-chanel a {
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 2px;
+    color: #666;
+    text-decoration: none;
+}
+.sec-list-body .list-item2016 {
+    background-color: #fff;
+    margin: 1px 0;
+    padding: 15px 10px;
+}
+.sec-list-body .list-item2016 dl {
+    margin: 0;
+    height: 70px;
+    /* padding-bottom: 10px; */
+}
+.sec-list-body .list-item2016 dl dt {
+    color: #222;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.sec-list-body .list-item2016 dl dd {
+    margin: 0;
+    padding: 0 10px 0 0;
+    color: #777;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    font-size: 13px;
+    text-align: right;
+}
+.more-btn {
+    margin: 0px 0 10px;
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    color: #f60;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.index-list-heading {
+    margin-bottom: 1px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 8px;
+}
+.index-list-heading h2 {
+    margin: 5px 0;
+    border-left: 8px solid #f60;
+    padding: 0 10px;
+    float: left;
+    height: 40px;
+    font-weight: 800;
+    font-size: 22px;
+    color: #151515;
+    line-height: 40px;
+    overflow: hidden;
+}
+.sec-list-body .list-item2016 img {
+    width: 100px;
+    height: 70px;
+    float: left;
+    border: none;
+}
+.sec-list-body .list-item2016 img ~ dl {
+    margin-left: 110px;
+}
+
+footer {
+    clear: both;
+    margin-top: 10px !important;
+    color: #999;
+    background: #333;
+}
+footer .footer-menu a {
+    display: block;
+    float: left;
+    width: 16%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 3px 0;
+    color: #aaa;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+footer .footer-info {
+    padding: 15px 0;
+    background: #222;
+}
+.clearfix {
+    clear: both;
+}
+footer .link {
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+}
+footer .link a {
+    color: #aaa;
+    text-decoration: none;
+}
+footer .copyright {
+    text-align: center;
+    font-size: 12px;
+}
+.back_to_top {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-image: url(http://m.bendibao.com/touch/v2/images/top.png);
+    background-color: rgba(0,0,0,0.5);
+    background-size: 44px 44px;
+    position: fixed;
+    bottom: 200px;
+    right: 2px;
+    opacity: 0.75;
+    cursor: pointer;
+    display: none;
+}
+.back_to_feed {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    position: fixed;
+    bottom: 155px;
+    right: 2px;
+    opacity: 0.75;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    line-height: 44px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    display: none;
+}
